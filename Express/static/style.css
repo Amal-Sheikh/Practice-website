@@ -1,0 +1,36 @@
+/* *{
+    font-family: 'Courier New', Courier, monospace;
+    margin:0;
+}
+
+ul{
+    display:flex;
+    flex-direction: row;
+
+}
+.nav{
+    color:rgb(134, 121, 121);
+    padding:12px
+
+}
+li{
+    list-style: none;
+    padding:10px;
+}
+a{
+    text-decoration: none;
+    color:white;
+}
+input, textarea{
+    display: block;
+    padding: 13px ;
+    margin: 15px auto;
+    width:60%;
+    border-radius: 5px;
+    outline: none;
+}
+.btn{
+    display: flex;
+    justify-content: center;
+    align-items:center;
+}

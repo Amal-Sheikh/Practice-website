@@ -1,0 +1,40 @@
+extends base.pug
+
+block scripts
+  script(src='/static/index.js')
+
+block style
+  style
+    include style.css
+
+block content
+
+  section#introSection
+    | section for picture
+
+  section#sponsorsSection
+    | section for sponsors
+    div#sponsors
+      img(src="/static/logo.png")
+      img(src="/static/logo.png")
+
+  section#missionSection
+    h2 mission
+    div.card
+      h3 dance perfection
+      div.card-box
+        div.card-img
+          img(src="/static/logo.png")
+        p this is best dance
+    div.card
+      h3 dance perfection
+      div.card-box
+        div.card-img
+          img(src="/static/logo.png")
+        p this is best dance
+    div.card
+      h3 dance perfection
+      div.card-box
+        div.card-img
+          img(src="/static/logo.png")
+        p this is best dance

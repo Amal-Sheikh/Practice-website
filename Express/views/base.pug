@@ -1,0 +1,23 @@
+doctype html
+html
+  head
+    title Amal Dance Academy
+    block style
+          style 
+            include ../static/style.css
+    block scripts
+      script(src='/static/index.js')
+
+  body
+  nav#navbar
+    ul
+      div#logo
+      li
+        a(href="/") Home
+      li
+        a(href="/") About
+      li
+        a(href="/contact") Contact
+    block content
+    footer#footer
+      | our footer @  here
